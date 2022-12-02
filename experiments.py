@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 from tensorflow.keras import layers, regularizers
 import tensorflow as tf
 from keras.models import Sequential
-df = pd.read_csv("features_3_sec.csv")
+df = pd.read_csv("data.csv")
 df=df.drop(labels='filename',axis=1)
 print(df)
 list=df.iloc[:,-1]
